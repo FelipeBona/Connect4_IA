@@ -6,3 +6,7 @@ ESPACO_ENTRE_CIRCULOS = 10
 AZUL = (0, 0, 255)
 AZUL_CLARO = (173, 216, 230)
 PRETO = (0, 0, 0)
+
+# Cores das peças
+VERMELHO = (255, 0, 0)
+AMARELO = (255, 255, 0)
