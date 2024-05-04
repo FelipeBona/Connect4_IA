@@ -1,12 +1,10 @@
-from InterfaceGrafica.interfaceGrafica import *
+import InterfaceGrafica.interfaceGrafica as gui
 import Tabuleiro.tabuleiro as t
 
 def main():
 
   tabuleiro = t.Tabuleiro()
-
-  connect_4(tabuleiro)
-
+  gui.connect_4(tabuleiro.grid)
 
 if __name__ == '__main__':
   main()

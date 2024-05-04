@@ -14,8 +14,6 @@ class Tabuleiro:
       self.grid.append([])
       for j in range(self.alturaTabuleiro):
         self.grid[i].append(0)
-
-    return self;
   
   def colocar_peca(self, coluna, tipoPeca):
 

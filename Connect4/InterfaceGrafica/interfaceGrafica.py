@@ -1,5 +1,5 @@
 import pygame
-from config import *
+from InterfaceGrafica.config import *
 
 pygame.init()
 
