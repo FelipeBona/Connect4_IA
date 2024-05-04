@@ -10,9 +10,9 @@ class Tabuleiro:
   
   def __init__(self):
 
-    for i in range(self.larguraTabuleiro): 
+    for i in range(self.alturaTabuleiro): 
       self.grid.append([])
-      for j in range(self.alturaTabuleiro):
+      for _ in range(self.larguraTabuleiro):
         self.grid[i].append(0)
   
   def colocar_peca(self, coluna, tipoPeca):
